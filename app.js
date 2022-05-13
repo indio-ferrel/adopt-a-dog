@@ -1,8 +1,6 @@
 import { getDogs } from './fetch-utils.js';
 import { renderDogCard } from './render-utils.js';
 
-const dogListContainer = document.getElementById('dog-list-container');
-
 // on load
 
 async function loadData() {
