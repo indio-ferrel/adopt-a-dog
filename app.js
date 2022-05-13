@@ -12,8 +12,10 @@ async function loadData() {
     // fetch all dogs
 
     for (let dog of dogs) {
-        const dogDiv = renderDog(dog);
+        const dogDiv = renderDogCard(dog);
         // render and append all dog cards to the container
         dogListContainer.append(dogDiv);
     }
 }
+
+loadData();
